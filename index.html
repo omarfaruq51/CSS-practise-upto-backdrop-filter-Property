@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+   <title>CSS references practise</title>
+</head>
+<body>
+    <!-- HTML  tag -->
+    <h1>The accent-color Property</h1>
+
+    <h3>Accent color for checkboxes:</h3>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" checked>
+    <label for="vehicle2"> I have a car</label><br><br>
+    
+    <h3>Accent color for radiobuttons:</h3>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS" checked>
+    <label for="css">CSS</label><br>
+    
+    <h3>Accent color for a range field:</h3>
+    <label for="vol">Volume:</label>
+    <input type="range" id="vol" name="vol" min="0" max="50">
+    
+    <h3>Accent color for a progress element:</h3>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="72" max="100"> 72% </progress>
+
+    <h1>The align-content Property</h1>
+
+    <div id="main">
+      <div style="background-color:coral;"></div>
+      <div style="background-color:lightblue;"></div>
+      <div style="background-color:pink;"></div>
+    </div>
+
+    <h1>The align-self Property</h1>
+
+<div id="main2">
+  <div style="background-color:coral;">This DIV has little content.</div>
+  <div id="myBlueDiv" style="background-color:lightblue;">This DIV has more content and usually this can be a problem when aligning multiple DIV elements.</div>  
+  <div style="background-color:lightgreen;">This <br>DIV<br>has<br>many<br>line<br>breaks.</div>
+</div>
+
+
+<h1>The align-items Property</h1>
+
+<div id="main3">
+  <div style="background-color:coral;min-height:30px;">RED</div>
+  <div style="background-color:lightblue;min-height:50px;">BLUE</div>  
+  <div style="background-color:lightgreen;min-height:190px;">Green div with more content.</div>
+</div>
+<div>
+<p>No all property:</p>
+<div id="ex1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+<p>all: inherit:</p>
+<div id="ex2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+<p>all: initial:</p>
+<div id="ex3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+<p>all: unset:</p>
+<div id="ex4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+
+<h1>The animation Property</h1>
+
+<p>Move an element from 0px to 200px left. The animation lasts for 5 seconds. It then starts over again, and go on forever (infinite).</p>
+<div class="animation"></div>
+
+<h1>Set animation-play-state on Hover</h1>
+
+<p>Hover over the box to stop the animation.</p>
+<div class="animation2"></div>
+
+<h1>The backdrop-filter Property</h1>
+
+<div class="bg">
+  <div class="transbox">
+    <p>This is some text.</p>
+  </div>
+</div>
+<hr>
+
+
+</body>
+</html>
